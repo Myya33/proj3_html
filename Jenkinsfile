@@ -14,7 +14,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'docker build -t kal1bur/kal1bur/project3 .'
+        sh 'docker build -t kal1bur/project3 .'
       }
     }
 
