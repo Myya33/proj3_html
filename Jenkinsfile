@@ -20,7 +20,7 @@ pipeline {
 
     stage('Docker Login') {
       steps {
-        sh 'docker login -u docker kal1bur -p dckr_pat_DASZeW9LwGJhy0nqeeQtHLUekRI'
+        sh 'docker login -u kal1bur -p dckr_pat_DASZeW9LwGJhy0nqeeQtHLUekRI'
       }
     }
 
